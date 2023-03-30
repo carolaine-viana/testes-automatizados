@@ -8,4 +8,4 @@
 
 **Cypress**: tests in backend, front-end and functional. path: cypress > integration > projeto
 
-**Playwright**: tests in backend using an public API. path: playwright > tests
+**Playwright**: tests in backend using an public API. path: playwright > tests > Swagger Petstore
