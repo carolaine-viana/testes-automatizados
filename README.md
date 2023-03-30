@@ -8,7 +8,7 @@ Testes bonus em C# em: restSharp > QA-RestSharp.
 
 > EN
 
-**Cypress**: tests in backend, front-end and functional. path: cypress > integration > projeto.
+**Cypress**: tests in backend, front-end and functional tests. path: cypress > integration > projeto.
 
 **Playwright**: tests in backend using an public API. path: playwright > tests > Swagger Petstore.
 
