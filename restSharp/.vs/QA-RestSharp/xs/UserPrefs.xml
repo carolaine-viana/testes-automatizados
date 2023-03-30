@@ -1,0 +1,39 @@
+﻿<Properties StartupConfiguration="{71AD4DE8-DF7C-4F82-A2E2-F05B56025D73}|Default">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="QA-RestSharp/Metodos Delete/delete_pet.cs">
+    <Files>
+      <File FileName="UnitTest1.cs" />
+      <File FileName="QA-RestSharp/Metodos POST/create_pet.cs" Line="148" Column="25" />
+      <File FileName="QA-RestSharp/Metodos GET/list_pets.cs" Line="117" Column="2" />
+      <File FileName="QA-RestSharp/Metodos Delete/delete_pet.cs" Line="85" Column="18" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="QA-RestSharp" expanded="True">
+            <Node name="QA-RestSharp" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="QA-RestSharp" expanded="True">
+            <Node name="QA-RestSharp" expanded="True">
+              <Node name="QA_RestSharp" expanded="True">
+                <Node name="Tests_Delete" expanded="True">
+                  <Node name="CheckDeleteId" selected="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.QA-RestSharp PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>
