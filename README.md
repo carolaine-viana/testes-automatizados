@@ -4,7 +4,7 @@
 
 **Playwright**: testes em backend em um API publica em: playwright > tests
 
-// EN //
+> EN
 
 **Cypress**: tests in backend, front-end and functional. path: cypress > integration > projeto
 
