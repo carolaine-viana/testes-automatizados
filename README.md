@@ -1,5 +1,7 @@
 # testes-automatizados
 
+> PT
+
 **Cypress**: testes em backend, front-end e funcionais em: cypress > integration > projeto.
 
 **Playwright**: testes em backend em um API publica em: playwright > tests.
