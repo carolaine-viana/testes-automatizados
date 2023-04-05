@@ -1,8 +1,5 @@
 /// <reference types="cypress" />
 import {When, Then} from "@badeball/cypress-cucumber-preprocessor";
-// When('I type a first name', () => {
-//   //cy.get('input').should('contain', 'first name')
-// })
 
 When(`I type a first name`, () => {
   cy.get('input[placeholder="First Name"]').type('Carol')
@@ -26,4 +23,9 @@ When(`I click on the submit button`, () => {
 
 Then(`U should be presented with a successfull contact submission message`, () => {
   cy.get('#contact_reply').children('h1').should('contain', 'Thank You for your Message!')
+});
+
+Then(`U should be presented with a unsuccessfull contact submission message`, () => {
+  cy.get('body').contains('all fields are required')
+  cy.get('body').contains('Invalid email address')
 });
