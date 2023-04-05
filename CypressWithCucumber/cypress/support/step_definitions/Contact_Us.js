@@ -23,7 +23,6 @@ When(`I click on the submit button`, () => {
 
 Then(`U should be presented with a successfull contact us submission message`, () => {
   //cy.get('#contact_reply').children('h1').should('contain', 'Thank You for your Message!')
-  //
   cy.get('h1').should('have.text', 'Thank You for your Message!')
 });
 
