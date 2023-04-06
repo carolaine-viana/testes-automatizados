@@ -28,3 +28,20 @@ Feature: WebDriverUniversity - Contact us page
     And I type a specific word "hello 123" and number 6788 within the comment input field
     And I click on the submit button 
     Then U should be presented with a successfull contact us submission message
+
+  Scenario Outline: Validade contact us page
+    Given I navigate to the webdriveruniversity homepage
+    When I click on the contact us button
+    And I type a first name '<firstName>' and a last name '<lastName>'
+    And I type a '<emailAddress>' and a comment '<comment>'
+    And I click on the submit button
+    Then I should be presented with header text '<message>'
+
+    Examples:
+      | firstName | lastName | emailAddress | comment | message |
+      | Carol | Viana | carol@hotmail.com | hello 123 | Thank You for your Message! |
+      | John | Jones | john@hotmail.com | hello its jhon | Thank You for your Message! |
+      | Grace | Hudson | grace | hello its grace | Error: Invalid email address |
+
+
+
