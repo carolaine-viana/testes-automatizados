@@ -40,6 +40,3 @@ Background: Pre conditions
       | Carol | Viana | carol@hotmail.com | hello 123 | Thank You for your Message! |
       | John | Jones | john@hotmail.com | hello its jhon | Thank You for your Message! |
       | Grace | Hudson | grace | hello its grace | Error: Invalid email address |
-
-
-
