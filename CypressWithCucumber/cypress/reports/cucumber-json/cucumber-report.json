@@ -1,0 +1,981 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "webdriveruniversity---contact-us-page;valid-contact-us-form-submission",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "Valid Contact Us Form Submission",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I navigate to the webdriveruniversity homepage",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1632000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I click on the contact us button",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 932000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I type a first name",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 259000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "I Type a last name",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 237000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "I enter an email address",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 397000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "I type a comment",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 318000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "I click on the submit button",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1692000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "U should be presented with a successfull contact us submission message",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 33000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@contact-us",
+            "line": 1
+          },
+          {
+            "name": "@regression",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "webdriveruniversity---contact-us-page;invalid-contact-us-fom-submission",
+        "keyword": "Scenario",
+        "line": 16,
+        "name": "Invalid Contact Us Fom Submission",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I navigate to the webdriveruniversity homepage",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 303000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I click on the contact us button",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 307000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "I type a first name",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 214000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "I Type a last name",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 213000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "I type a comment",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 284000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 20,
+            "name": "I click on the submit button",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 328000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 21,
+            "name": "U should be presented with a unsuccessfull contact us submission message",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 14000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@contact-us",
+            "line": 1
+          },
+          {
+            "name": "@regression",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "webdriveruniversity---contact-us-page;valid-contact-us-fom-submission---using-specific-data",
+        "keyword": "Scenario",
+        "line": 23,
+        "name": "Valid Contact Us Fom Submission - Using Specific Data",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I navigate to the webdriveruniversity homepage",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 372000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I click on the contact us button",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 320000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 24,
+            "name": "I type a specific first name \"Sarah\"",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 223000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 25,
+            "name": "I type a specific last name \"Woods\"",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 210000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 26,
+            "name": "I type a specific email address \"sarah@hotmail.com\"",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 360000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 27,
+            "name": "I type a specific word \"hello 123\" and number 6788 within the comment input field",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 262000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 28,
+            "name": "I click on the submit button",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1531000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 29,
+            "name": "U should be presented with a successfull contact us submission message",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 61000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@contact-us",
+            "line": 1
+          },
+          {
+            "name": "@regression",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "webdriveruniversity---contact-us-page;validade-contact-us-page",
+        "keyword": "Scenario Outline",
+        "line": 42,
+        "name": "Validade contact us page",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I navigate to the webdriveruniversity homepage",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 702000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I click on the contact us button",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 398000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 33,
+            "name": "I navigate to the webdriveruniversity homepage",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 323000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 34,
+            "name": "I click on the contact us button",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 309000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 35,
+            "name": "I type a first name 'Carol' and a last name 'Viana'",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 446000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 36,
+            "name": "I type a 'carol@hotmail.com' and a comment 'hello 123'",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 614000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 37,
+            "name": "I click on the submit button",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1604000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 38,
+            "name": "I should be presented with header text 'Thank You for your Message!'",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 74000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@contact-us",
+            "line": 1
+          },
+          {
+            "name": "@regression",
+            "line": 1
+          },
+          {
+            "name": "@smoke",
+            "line": 31
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "webdriveruniversity---contact-us-page;validade-contact-us-page",
+        "keyword": "Scenario Outline",
+        "line": 43,
+        "name": "Validade contact us page",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I navigate to the webdriveruniversity homepage",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 698000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I click on the contact us button",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 348000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 33,
+            "name": "I navigate to the webdriveruniversity homepage",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 282000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 34,
+            "name": "I click on the contact us button",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 398000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 35,
+            "name": "I type a first name 'John' and a last name 'Jones'",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 429000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 36,
+            "name": "I type a 'john@hotmail.com' and a comment 'hello its jhon'",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 661000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 37,
+            "name": "I click on the submit button",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1500000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 38,
+            "name": "I should be presented with header text 'Thank You for your Message!'",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 23000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@contact-us",
+            "line": 1
+          },
+          {
+            "name": "@regression",
+            "line": 1
+          },
+          {
+            "name": "@smoke",
+            "line": 31
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "webdriveruniversity---contact-us-page;validade-contact-us-page",
+        "keyword": "Scenario Outline",
+        "line": 44,
+        "name": "Validade contact us page",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I navigate to the webdriveruniversity homepage",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 280000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I click on the contact us button",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 291000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 33,
+            "name": "I navigate to the webdriveruniversity homepage",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 277000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 34,
+            "name": "I click on the contact us button",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 297000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 35,
+            "name": "I type a first name 'Grace' and a last name 'Hudson'",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 453000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 36,
+            "name": "I type a 'grace' and a comment 'hello its grace'",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 572000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 37,
+            "name": "I click on the submit button",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 380000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 38,
+            "name": "I should be presented with header text 'Error: Invalid email address'",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@contact-us",
+            "line": 1
+          },
+          {
+            "name": "@regression",
+            "line": 1
+          },
+          {
+            "name": "@smoke",
+            "line": 31
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "webdriveruniversity---contact-us-page",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "WebDriverUniversity - Contact us page",
+    "tags": [
+      {
+        "name": "@contact-us",
+        "line": 1
+      },
+      {
+        "name": "@regression",
+        "line": 1
+      }
+    ],
+    "uri": "cypress/e2e/Contact_Us.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "webdriveruniversity---login-page;validate-valid-&-invalid-login-credentials",
+        "keyword": "Scenario Outline",
+        "line": 16,
+        "name": "Validate valid & invalid login credentials",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I navigate to the webdriveruniversity homepage",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1256000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I click on the login portal button",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1394000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I type a username webdriver",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 308000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "I type a password webdriver123",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 322000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "I click on the login button",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 342000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "I Should be presented with an alert box wich contains text 'validation succeeded'",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 37000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login",
+            "line": 1
+          },
+          {
+            "name": "@regression",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "webdriveruniversity---login-page;validate-valid-&-invalid-login-credentials",
+        "keyword": "Scenario Outline",
+        "line": 17,
+        "name": "Validate valid & invalid login credentials",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I navigate to the webdriveruniversity homepage",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 478000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I click on the login portal button",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 301000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I type a username webdriver",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 258000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "I type a password webdriver12",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 290000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "I click on the login button",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 286000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "I Should be presented with an alert box wich contains text 'validation failed'",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 13000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login",
+            "line": 1
+          },
+          {
+            "name": "@regression",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "webdriveruniversity---login-page",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "WebDriverUniversity - Login Page",
+    "tags": [
+      {
+        "name": "@login",
+        "line": 1
+      },
+      {
+        "name": "@regression",
+        "line": 1
+      }
+    ],
+    "uri": "cypress/e2e/Login.feature"
+  }
+]
