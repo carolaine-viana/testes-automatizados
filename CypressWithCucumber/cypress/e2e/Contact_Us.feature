@@ -1,3 +1,4 @@
+@contact-us @regression
 Feature: WebDriverUniversity - Contact us page
 
 Background: Pre conditions
@@ -27,6 +28,7 @@ Background: Pre conditions
     And I click on the submit button 
     Then U should be presented with a successfull contact us submission message
 
+  @smoke
   Scenario Outline: Validade contact us page
     Given I navigate to the webdriveruniversity homepage
     When I click on the contact us button
