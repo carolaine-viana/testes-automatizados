@@ -3,6 +3,7 @@ Feature: WebDriverUniversity - Login Page
 
   Background: Pre conditions
     Given I navigate to the webdriveruniversity homepage
+    And I wait 5 seconds
     When I click on the login portal button
 
   Scenario Outline: Validate valid & invalid login credentials
