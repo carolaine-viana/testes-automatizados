@@ -21,7 +21,7 @@ describe('tests at login page', () => {
     cy.get('#flash').should('contain', 'Your password is invalid!')
   })
 
-  it('should return error if login input is empty', () => {
+  it('should return error if input is empty', () => {
     cy.get('.radius').click()
     cy.get('#flash').should('contain', 'Your username is invalid!')
   })
