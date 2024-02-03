@@ -1,4 +1,4 @@
-#Tutorial
+# Tutorial
 
 1. Verificar se ha instalacao do nodeJS, necessario - rode o comando: node -v no seu terminal, se nao aparecer a versao do node, instalar via: https://nodejs.org/en/download/current
 2. Instalar o npm ou yarn: npm install ou yarn install
