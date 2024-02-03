@@ -9,7 +9,7 @@
 ![Capture3222](https://github.com/carolaine-viana/testes-automatizados/assets/65136543/3056f998-6fdf-4ae6-965e-84b349977fa9)
 
 
-# explicação dos arquivos/pastas:
+# Explicação dos arquivos/pastas:
 
 support > locators: arquivo onde esta localizado todos os seletores necessarios, dessa forma quando houver mudanca de localizacao, sera alterado o caminho em um local apenas.
 support > coommands: arquivo onde contem funcoes que se repetem varias vezes, portanto foi criado um comando para chamar quando necessario.
