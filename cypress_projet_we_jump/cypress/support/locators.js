@@ -1,18 +1,20 @@
 const locators = {
+  URL: {
+    HOMEPAGE: 'https://magento2-demo.magebit.com/',
+    MY_ACCOUNT: 'https://magento2-demo.magebit.com/customer/account/',
+    LOGIN_PAGE: 'https://magento2-demo.magebit.com/customer/account/login/',
+    SIGN_UP_PAGE: 'https://magento2-demo.magebit.com/customer/account/create/',
+  },
   MENU: {
-    acess_my_account: ':nth-child(2) > .customer-welcome > .customer-name > .action',
-    view_my_account: ':nth-child(2) > .customer-welcome > .customer-menu > .header > :nth-child(1) > #id8LcXAjIz',
     select_my_orders: '.items > :nth-child(2) > a',
     detail_of_my_order: '.actions > .view > span',
   },
   login: {
-    login_path: '.panel > .header > .authorization-link > a',
     email: '#email',
     pass: '.login-container > .block-customer-login > .block-content > #login-form > .fieldset > .password > .control > #pass',
     BTN_LOGIN: '.login-container > .block-customer-login > .block-content > #login-form > .fieldset > .actions-toolbar > div.primary > #send2'
   },
   SIGN_UP: {
-    sign_up: 'a[id="idH9brKkbx"]',
     name: '#firstname',
     lastname: '#lastname',
     email: '#email_address',
@@ -27,6 +29,7 @@ const locators = {
     add_to_cart: '#product-addtocart-button',
     open_cart: '.showcart',
     search_product: '#search',
+    click_to_search: 'button[class="action search"]',
     proceed_checkout: '#top-cart-btn-checkout'
   },
   ADDRESS: {

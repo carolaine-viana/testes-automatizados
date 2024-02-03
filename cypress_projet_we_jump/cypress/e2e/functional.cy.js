@@ -2,22 +2,20 @@
 import loc from "../support/locators";
 import { faker } from '@faker-js/faker';
 
-//const email = faker.internet.email()
-
 const my_profile = {
-    name: faker.internet.name,
-    lastname:faker.internet.lastname,
+    name: faker.person.firstName(),
+    lastname: faker.person.lastName(),
     email: faker.internet.email(),
-    password: 'Pas@w0rd'
+    password: faker.internet.password()
 }
 
 describe('Testes Funcionais', () => {
     beforeEach(() => {
-        cy.visit("https://magento2-demo.magebit.com/", { failOnStatusCode: false })
+        cy.visit(loc.URL.HOMEPAGE)
     })
 
-    it("Cadastro de usuário", () => {
-        cy.get(loc.SIGN_UP.sign_up).first().click({ force: true })
+    it("Cadastro de usuário", { retries: 1 }, () => {
+        cy.visit(loc.URL.SIGN_UP_PAGE)
         cy.get(loc.SIGN_UP.name).type(`${my_profile.name}`)
         cy.get(loc.SIGN_UP.lastname).type(`${my_profile.lastname}`)
 
@@ -26,15 +24,22 @@ describe('Testes Funcionais', () => {
         cy.get(loc.SIGN_UP.password_confirm).type(`${my_profile.password}`)
 
         cy.get(loc.SIGN_UP.btn_sign_up).click({ force: true })
+
+        cy.wait(3000)
+        cy.get('.message-success > div')
+            .invoke("text")
+            .then((x) => {
+                expect(x).to.eq("Thank you for registering with Main Website Store.")
+            })
     });
 
     it("Realizar Login", () => {
         cy.login(`${my_profile.email}`, `${my_profile.password}`)
     });
 
-    it("Adicionar produto ao carrinho + Finalização de compra", () => {
+    it("Adicionar produto ao carrinho + Finalização de compra", { retries: 1 }, () => {
         cy.login(`${my_profile.email}`, `${my_profile.password}`)
-
+        cy.visit(loc.URL.HOMEPAGE)
         cy.get(loc.ADD_CART.start_shop).click({ force: true })
         cy.get(loc.ADD_CART.add_product).click({ force: true })
         cy.wait(3000)
@@ -66,26 +71,24 @@ describe('Testes Funcionais', () => {
             })
     });
 
-    it("Adicionar produto ao carrinho em fluxos alternativo - Página de produto + busca", () => {
+    it("Adicionar produto ao carrinho em fluxos alternativo - Página de produto + busca", { retries: 1 }, () => {
         cy.login(`${my_profile.email}`, `${my_profile.password}`)
+        cy.visit(loc.URL.HOMEPAGE)
 
         cy.get(loc.ADD_CART.start_shop).click({ force: true })
 
         cy.get(loc.ADD_CART.search_product).type('Watch')
-        cy.get('div[id="search_autocomplete"]').click({ force: true })
-        cy.get('#qs-option-0').click({ force: true })
+        cy.get(loc.ADD_CART.click_to_search).click({ force: true })
 
         cy.get(loc.ADD_CART.add_produt_watch).click({ force: true })
         cy.wait(3000)
         cy.get(loc.ADD_CART.add_to_cart).click({ force: true })
     });
 
-    it("Adicionar produto ao carrinho em fluxos alternativo - Lista + detalhes", () => {
+    it("Adicionar produto ao carrinho em fluxos alternativo - Lista + detalhes", { retries: 1 }, () => {
         cy.login(`${my_profile.email}`, `${my_profile.password}`)
-
-        cy.get(loc.MENU.acess_my_account).click({ force: true })
-        cy.get(loc.MENU.view_my_account).click({ force: true })
-        cy.get(loc.MENU.view_my_account).click({ force: true })
+        cy.visit(loc.URL.MY_ACCOUNT)
+        cy.get(loc.MENU.select_my_orders).click({ force: true })
         cy.get(loc.MENU.detail_of_my_order).click({ force: true })
     });
 })
