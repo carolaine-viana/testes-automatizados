@@ -1,10 +1,12 @@
 # Tutorial: Como rodar os testes
-Verificar se ha instalacao do nodeJS, necessario - rode o comando: node -v no seu terminal, se nao aparecer a versao do node, instalar via: https://nodejs.org/en/download/current
-Instalar o npm ou yarn: npm install ou yarn install
-Apos instalar o node, importar/clonar/baixar a pasta do projeto
-Apos baixar a pasta do projeto, instalar os componentes necessarios para o projeto rodar. Acessar via terminal/IDE a pasta do projeto e apos isso rodar os comandos abaixo: npm install ou yarn install
-Utiliza o comando: npx cypress open para abrir o cypress e rodar os testes.
-Capture3222
+* Verificar se ha instalacao do nodeJS, necessario - rode o comando: node -v no seu terminal, se nao aparecer a versao do node, instalar via: https://nodejs.org/en/download/current
+* Instalar o npm ou yarn: npm install ou yarn install
+* Apos instalar o node, importar/clonar/baixar a pasta do projeto
+* Apos baixar a pasta do projeto, instalar os componentes necessarios para o projeto rodar. Acessar via terminal/IDE a pasta do projeto e apos isso rodar os comandos abaixo: npm install ou yarn install
+* Utiliza o comando: npx cypress open para abrir o cypress e rodar os testes.
+  
+  ![Capture3222](https://github.com/carolaine-viana/testes-automatizados/assets/65136543/1b2e77f3-9cd3-436d-8575-3a42f7ce8fa5)
+
 
 # Explicação dos arquivos/pastas:
 * support > locators: arquivo onde esta localizado todos os seletores necessarios, dessa forma quando houver mudanca de localizacao, sera alterado o caminho em um local apenas.
