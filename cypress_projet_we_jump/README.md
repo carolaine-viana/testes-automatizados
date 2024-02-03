@@ -29,29 +29,29 @@ support > coommands: arquivo onde contem funcoes que se repetem varias vezes, po
 
   > Cenarios de testes: realizar Login
 
-  Quando: acesso a URL https://magento2-demo.magebit.com/customer/account/login
-  E preencho o campo email
-  E preencho o campo senha
-  E clico no botao: Sign In
-  Entao deve levar a pagina: minha conta. 
+  * Quando: acesso a URL https://magento2-demo.magebit.com/customer/account/login
+  * E preencho o campo email
+  * E preencho o campo senha
+  * E clico no botao: Sign In
+  * Entao deve levar a pagina: minha conta. 
 
  > Cenarios de testes: Adicionar produto ao carrinho
   
-  Dado que eu esteja na pagina de produtos
-  Quando que eu seleciono um produto
-  E clico no botao: Add to Cart
-  Entao o produto deve ir para o meu carrinho
+  * Dado que eu esteja na pagina de produtos
+  * Quando que eu seleciono um produto
+  * E clico no botao: Add to Cart
+  * Entao o produto deve ir para o meu carrinho
 
   
   > Cenario: Finalização de compra
   
-  Dado que eu esteja com um produto ao carrinho
-  Quando acesso a pagina: Shipping Address
-  E preencho o campo nome
-  E preencho o campo sobrenome
-  E preencho o campo rua
-  E preencho o campo pais
-  E preencho o campo ZIPCODE
-  E preencho campo telefone
-  E clico na opcao de Shipping Methods
-  Entao eu confirmo minha compra com o botao Place Order
+  * Dado que eu esteja com um produto ao carrinho
+  * Quando acesso a pagina: Shipping Address
+  * E preencho o campo nome
+  * E preencho o campo sobrenome
+  * E preencho o campo rua
+  * E preencho o campo pais
+  * E preencho o campo ZIPCODE
+  * E preencho campo telefone
+  * E clico na opcao de Shipping Methods
+  * Entao eu confirmo minha compra com o botao Place Order
