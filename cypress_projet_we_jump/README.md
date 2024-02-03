@@ -11,8 +11,8 @@
 
 # Explicação dos arquivos/pastas:
 
-support > locators: arquivo onde esta localizado todos os seletores necessarios, dessa forma quando houver mudanca de localizacao, sera alterado o caminho em um local apenas.
-support > coommands: arquivo onde contem funcoes que se repetem varias vezes, portanto foi criado um comando para chamar quando necessario.
+* support > locators: arquivo onde esta localizado todos os seletores necessarios, dessa forma quando houver mudanca de localizacao, sera alterado o caminho em um local apenas.
+* support > coommands: arquivo onde contem funcoes que se repetem varias vezes, portanto foi criado um comando para chamar quando necessario.
 
 # Cenarios de teste:
 
