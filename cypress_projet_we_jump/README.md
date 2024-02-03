@@ -12,7 +12,7 @@ Explicacao das pastas:
 support > locators: arquivo onde esta localizado todos os seletores necessarios, dessa forma quando houver mudanca de localizacao, sera alterado o caminho em um local apenas.
 support > coommands: arquivo onde contem funcoes que se repetem varias vezes, portanto foi criado um comando para chamar quando necessario.
 
-/h1 Cenarios de testes: realizar cadastro
+Cenarios de testes: realizar cadastro
 
 Quando: acesso a URL: https://magento2-demo.magebit.com/customer/account/login
   E clico no botao criar uma conta
