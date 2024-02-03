@@ -1,3 +1,4 @@
+#Tutorial
 
 1. Verificar se ha instalacao do nodeJS, necessario - rode o comando: node -v no seu terminal, se nao aparecer a versao do node, instalar via: https://nodejs.org/en/download/current
 2. Instalar o npm ou yarn: npm install ou yarn install
@@ -8,13 +9,16 @@
 ![Capture3222](https://github.com/carolaine-viana/testes-automatizados/assets/65136543/3056f998-6fdf-4ae6-965e-84b349977fa9)
 
 
-Explicacao das pastas:
+#Explicacao dos arquivos/pastas:
+
 support > locators: arquivo onde esta localizado todos os seletores necessarios, dessa forma quando houver mudanca de localizacao, sera alterado o caminho em um local apenas.
 support > coommands: arquivo onde contem funcoes que se repetem varias vezes, portanto foi criado um comando para chamar quando necessario.
 
-Cenarios de testes: realizar cadastro
+#Cenarios de teste:
 
-Quando: acesso a URL: https://magento2-demo.magebit.com/customer/account/login
+> Cenarios de testes: realizar cadastro
+
+  Quando: acesso a URL: https://magento2-demo.magebit.com/customer/account/login
   E clico no botao criar uma conta
   E que preencho o campo nome
   E que preencho o campo sobrenome
@@ -23,7 +27,7 @@ Quando: acesso a URL: https://magento2-demo.magebit.com/customer/account/login
   E clico no botao: Criar uma conta
   Entao deve levar a pagina: minha conta.
 
-  Cenarios de testes: realizar Login
+  > Cenarios de testes: realizar Login
 
   Quando: acesso a URL https://magento2-demo.magebit.com/customer/account/login
   E preencho o campo email
@@ -31,14 +35,15 @@ Quando: acesso a URL: https://magento2-demo.magebit.com/customer/account/login
   E clico no botao: Sign In
   Entao deve levar a pagina: minha conta. 
 
-  Cenarios de testes: Adicionar produto ao carrinho
+ > Cenarios de testes: Adicionar produto ao carrinho
   
   Dado que eu esteja na pagina de produtos
   Quando que eu seleciono um produto
   E clico no botao: Add to Cart
   Entao o produto deve ir para o meu carrinho
 
-  Cenario: Finalização de compra
+  
+  > Cenario: Finalização de compra
   
   Dado que eu esteja com um produto ao carrinho
   Quando acesso a pagina: Shipping Address
@@ -50,6 +55,3 @@ Quando: acesso a URL: https://magento2-demo.magebit.com/customer/account/login
   E preencho campo telefone
   E clico na opcao de Shipping Methods
   Entao eu confirmo minha compra com o botao Place Order
-
-
-  Entao o produto deve ir para o carrinho
