@@ -1,0 +1,9 @@
+node_modules
+videos
+screenshots
+cypress/downloads
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
