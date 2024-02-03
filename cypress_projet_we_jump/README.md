@@ -18,14 +18,14 @@ support > coommands: arquivo onde contem funcoes que se repetem varias vezes, po
 
 > Cenarios de testes: realizar cadastro
 
-  Quando: acesso a URL: https://magento2-demo.magebit.com/customer/account/login
-  E clico no botao criar uma conta
-  E que preencho o campo nome
-  E que preencho o campo sobrenome
-  E que preencho o campo email
-  E que preencho o campo senha
-  E clico no botao: Criar uma conta
-  Entao deve levar a pagina: minha conta.
+  * Quando: acesso a URL: https://magento2-demo.magebit.com/customer/account/login
+  * E clico no botao criar uma conta
+  * E que preencho o campo nome
+  * E que preencho o campo sobrenome
+  * E que preencho o campo email
+  * E que preencho o campo senha
+  * E clico no botao: Criar uma conta
+  * Entao deve levar a pagina: minha conta.
 
   > Cenarios de testes: realizar Login
 
